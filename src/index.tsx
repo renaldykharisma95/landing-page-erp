@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 
 import reportWebVitals from "./reportWebVitals";
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./helper/router";
 
@@ -11,9 +11,13 @@ const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
-  <ChakraProvider>
+  <ChakraProvider
+    theme={extendTheme({
+      initialColorMode: "light",
+      useSystemColorMode: false,
+    })}
+  >
     <RouterProvider router={router} />
-      {/* <App /> */}
   </ChakraProvider>
 );
 
