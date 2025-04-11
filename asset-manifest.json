@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/landing-page-erp/static/css/main.31d6cfe0.css",
+    "main.js": "/landing-page-erp/static/js/main.9fb98985.js",
+    "static/js/453.9821411c.chunk.js": "/landing-page-erp/static/js/453.9821411c.chunk.js",
+    "static/media/business.webp": "/landing-page-erp/static/media/business.2ddefb4cce08101d71f2.webp",
+    "static/media/finance.webp": "/landing-page-erp/static/media/finance.946e288bdb3a13a4a2fc.webp",
+    "static/media/prioritize.webp": "/landing-page-erp/static/media/prioritize.c916aedfd6b61f020085.webp",
+    "static/media/userpie.webp": "/landing-page-erp/static/media/userpie.0d14ada214d137930a9c.webp",
+    "static/media/basic.webp": "/landing-page-erp/static/media/basic.087f1a173ed6dbad52c0.webp",
+    "static/media/profit.webp": "/landing-page-erp/static/media/profit.75ba2be37821b91ed314.webp",
+    "index.html": "/landing-page-erp/index.html",
+    "main.9fb98985.js.map": "/landing-page-erp/static/js/main.9fb98985.js.map",
+    "453.9821411c.chunk.js.map": "/landing-page-erp/static/js/453.9821411c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.9fb98985.js"
+  ]
+}
