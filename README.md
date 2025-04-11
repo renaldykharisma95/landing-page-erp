@@ -1,4 +1,3 @@
-```markdown
 # ERP Landing Page
 
 ## Overview
@@ -12,7 +11,7 @@ To get started with this project, follow the instructions below.
 ### Prerequisites
 
 - Node.js (version 16 or higher)
-- Yarn (optional, but recommended)
+- Yarn
 
 ### Installation
 
