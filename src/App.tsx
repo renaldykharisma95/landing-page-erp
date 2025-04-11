@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Container } from "@chakra-ui/react";
+import Home from "./containers/home/home";
+import About from "./containers/about/about";
+import NavbarDesktop from "./components/navbar/desktop/navbar-desktop";
+import Pricing from "./containers/pricing/pricing";
+import Contact from "./containers/contact/contact";
+import { useScreenDetector } from "./hooks/useScreenDetector";
+import NavbarMobile from "./components/navbar/mobile/navbar-mobile";
+import { ScrollProvider } from "./providers/scroll.providers";
 
 function App() {
+  const { isMobile } = useScreenDetector();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ScrollProvider>
+      <Container maxW="full" h="100vh" px={0}>
+        {isMobile ? <NavbarMobile /> : <NavbarDesktop />}
+        <Home />
+        <About />
+        <Pricing />
+        <Contact />
+      </Container>
+    </ScrollProvider>
   );
 }
 
