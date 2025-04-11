@@ -2,7 +2,7 @@
   "name": "erp-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://renaldykharisma95.github.io/erp-landingpage",
+  "homepage": "https://renaldykharisma95.github.io/landing-page-erp",
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
     "@chakra-ui/react": "2",
