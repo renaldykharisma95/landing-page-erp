@@ -1,8 +1,8 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, createHashRouter } from "react-router-dom";
 import App from "../App";
 import Login from "../containers/login/login";
 
-export const router = createBrowserRouter(
+export const router = createHashRouter(
   [
     {
       path: "/",
@@ -13,7 +13,7 @@ export const router = createBrowserRouter(
       element: <Login />,
     },
   ],
-  {
-    basename: "landing-page-erp",
-  }
+//   {
+//     basename: "landing-page-erp",
+//   }
 );
