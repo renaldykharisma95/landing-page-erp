@@ -11,7 +11,7 @@ const About = () => {
     <Box ref={contextScroll?.aboutRef} px={isMobile ? 8 : 150} py={200}>
       <Flex
         justifyContent={isMobile ? "center" : "space-between"}
-        flexDirection="column"
+        flexDirection={isMobile ? "column" : "row"}
         alignItems="center"
       >
         <Image src={business} w="fit-content" h="sm" alt="business-gif" />
