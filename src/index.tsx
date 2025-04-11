@@ -7,16 +7,16 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./helper/router";
 
+const chakraDefaultSettings = {
+  initialColorMode: "light",
+  useSystemColorMode: false,
+};
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
-  <ChakraProvider
-    theme={extendTheme({
-      initialColorMode: "light",
-      useSystemColorMode: false,
-    })}
-  >
+  <ChakraProvider theme={extendTheme({ ...chakraDefaultSettings })}>
     <RouterProvider router={router} />
   </ChakraProvider>
 );
