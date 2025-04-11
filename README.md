@@ -11,7 +11,7 @@ To get started with this project, follow the instructions below.
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
+- Node.js (version 16 or higher)
 - Yarn (optional, but recommended)
 
 ### Installation
@@ -37,8 +37,6 @@ In the project directory, you can run:
 
 - **`yarn start`**: Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits, and you will see any lint errors in the console.
 
-- **`yarn test`**: Launches the test runner in interactive watch mode. See the section about running tests for more information.
-
 - **`yarn build`**: Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified, and the filenames include the hashes. Your app is ready to be deployed!
 
 - **`yarn eject`**: Note: this is a one-way operation. Once you eject, you can’t go back! If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project and give you full control over the configuration files.
@@ -46,16 +44,3 @@ In the project directory, you can run:
 ## Live Site
 
 Visit [https://renaldykharisma95.github.io/erp-landingpage/](https://renaldykharisma95.github.io/erp-landingpage/) to view the live site.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://create-react-app.dev/docs/getting-started/). To learn React, check out the [React documentation](https://reactjs.org/docs/getting-started.html).
-```
-
-**Instructions to Update Your README.md**
-
-1. Open your existing `README.md` file in your repository.
-2. Replace the current content with the updated content provided above.
-3. Save the changes and commit them to your GitHub repository.
-
-This updated `README.md` provides a clearer structure and includes all necessary information for users to understand and use your project effectively.
