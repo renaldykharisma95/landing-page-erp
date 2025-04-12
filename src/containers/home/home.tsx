@@ -54,17 +54,17 @@ const Home = () => {
         </>
       )}
       <Box
-        style={{
-          position: "absolute",
-          bottom: 0,
-          left: 0,
-        }}
+        position="absolute"
+        bottom="0"
+        left="0"
+        w={isMobile ? "240px" : "350px"}
       >
         <Image
           src={userpie}
           alt="userpie"
-          w="fit-content"
-          h={isMobile ? 52 : 300}
+          w="100%"
+          h="auto"
+          objectFit="contain"
         />
       </Box>
     </Box>
