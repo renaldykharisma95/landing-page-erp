@@ -66,4 +66,4 @@ In the project directory, you can run:
 
 ## Live Site
 
-Visit [https://renaldykharisma95.github.io/landing-page-erp](https://renaldykharisma95.github.io/erp-landingpage/) to view the live site.
+Visit [https://renaldykharisma95.github.io/landing-page-erp](https://renaldykharisma95.github.io/landing-page-erp) to view the live site.
