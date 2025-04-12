@@ -12,6 +12,7 @@ import {
   OrderedList,
   Text,
 } from "@chakra-ui/react";
+import { TpricingList } from "../../containers/pricing/data";
 
 const PricingCard = ({
   item,
@@ -19,7 +20,7 @@ const PricingCard = ({
   isMobile,
   isTablet,
 }: {
-  item: any;
+  item: TpricingList;
   idx: number;
   isMobile: boolean;
   isTablet: boolean;

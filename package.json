@@ -31,6 +31,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "coverage": "yarn test -u --coverage",
+    "testSoalPertama": "yarn test -u soalpertama.test.js",
+    "testSoalKedua": "yarn test -u soalkedua.test.js",
+    "testSoalKetiga": "yarn test -u soalketiga.test.js",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"  

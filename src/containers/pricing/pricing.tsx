@@ -1,5 +1,5 @@
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
-import { pricingList } from "./data";
+import { pricingList, TpricingList } from "./data";
 import { useScreenDetector } from "../../hooks/useScreenDetector";
 import Slider from "react-slick";
 import PricingCard from "../../components/pricingcard/pricingcard";
@@ -38,7 +38,7 @@ const Pricing = () => {
               autoplaySpeed: 2500,
             }}
           >
-            {pricingList.map((item: any, idx: number) => (
+            {pricingList.map((item: TpricingList, idx: number) => (
               <PricingCard
                 item={item}
                 idx={idx}

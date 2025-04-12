@@ -2,6 +2,13 @@ import basic from "../../assets/basic.webp";
 import finance from "../../assets/finance.webp";
 import prioritize from "../../assets/prioritize.webp";
 
+export type TpricingList = {
+  name: string;
+  image: string;
+  items: string[];
+  price: string;
+};
+
 export const pricingList = [
   {
     name: "Basic",
